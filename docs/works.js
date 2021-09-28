@@ -28,4 +28,4 @@ class LinkBox {
 fancyLinks = document.getElementById("fancyLinks")
 manualLinks = [	new LinkBox("The game", "dodgeIco.png", "DodgeWeb/Dodge.html", fancyLinks),
 				new LinkBox("Pop pop pop", "popCat.png", "PopcatWeb/Popcat.html", fancyLinks),
-				new LinkBox("3D pic", "good_color_sphere.png", "VRView.html", fancyLinks)]
+				new LinkBox("3D pics", "vrIcon.png", "VRView.html", fancyLinks)]
