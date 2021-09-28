@@ -1,0 +1,41 @@
+body{
+	background-color: #1b1b1b;
+	color:#ecc801
+}
+
+.linkBox{
+	display: inline-block;
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin-right: 50px;
+	color: black;
+	background-color: #a70927;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.linkBox:hover{
+    background-color: #610202;
+}
+
+.linkBox img{
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+	height:calc(100% - 3.4em);
+	max-width: 90%;
+}
+
+.linkBoxSubtitle{
+	border-top:2px solid #fa807275;
+    margin-top:0.5em;
+    padding-top:0.5em;
+	text-align:center;
+	color:#ecc801
+}
+
+.hugeGap{
+	display: block;
+	height: 20px;
+}
