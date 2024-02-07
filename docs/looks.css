@@ -1,3 +1,6 @@
+/*Fix content display to add a respectable margin and center*/
+/*Fix content display for small devices*/
+
 body{
 	background-color: #1f1f1f;
 	color:#ecc801;
@@ -11,7 +14,7 @@ header{
 
 footer{
 	display: block;
-	position: absolute;
+	/*! position: absolute; */
 	bottom: 0;
 	width: 100%;
 	padding-bottom: 0.5em;
@@ -23,7 +26,7 @@ footer{
 
 .linkBox{
 	display: inline-block;
-	float: left;
+	/*! float: left; */
 	width: 250px;
 	height: 180px;
 	margin-right: 40px;
@@ -58,4 +61,12 @@ footer{
 .hugeGap{
 	display: block;
 	height: 20px;
+}
+
+#mainContent{
+	display: block;
+	width: 95vw;
+	min-height: calc(100vh - 4em - 34px);
+	/*Content is supposed to fill up the screen, but not overflow unless necessary.*/
+	/*It achieves that by trying to fill up the screen, and subtracting the height of other elements */
 }
